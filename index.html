@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practica 2</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
-    <header>
-      <h1>Karen Patricia Paco Gamarra</h1>
-      <h3>Entre codigo, filosofia y nuevos desafios</h3>
+    <header class="header-user-details">
+      <h1 class="general-title">Karen Patricia Paco Gamarra</h1>
+      <h3 class="slogan">Entre codigo, filosofia y nuevos desafios</h3>
       <p>
         Soy ingeniera en sistemas con enfoque en desarrollo web, especializadaen
         crear interfaces atractivas y funcionales usando tecnologias como HTML,
@@ -20,21 +21,20 @@
       </p>
     </header>
 
-    <nav>
-      <a href="#sobremi">Sobre mi</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
+    <nav class="navegation">
+      <a class="navigation-sections" href="#sobremi">Sobre mi</a>
+      <a class="navigation-sections" href="#habilidades">Habilidades</a>
+      <a class="navigation-sections" href="#proyectos">Formacion</a>
+      <a class="navigation-sections" href="#contacto">Contacto</a>
     </nav>
 
-    <main>
+    <main class="main-content">
       <section id="sobremi">
-        <h2>Sobre mi</h2>
-          <img
+        <h2 class="title-sections">Sobre mi</h2>
+          <img 
             src="img/paty.jpeg"
             alt=""
-            width="300px"
-            height="300px"
+          class="profile-photo"
           />
         <p>
           ¡Hola! Soy Karen, desarrolladora web Full Stack con experiencia en el
@@ -46,9 +46,9 @@
       </section>
 
       <section id="habilidades">
-        <h2>Habilidades</h2>
+        <h2 class="title-sections">Habilidades</h2>
 
-        <ul>
+        <ul class="list">
           <li>My SQL, PostgreSQL</li>
           <li>Java, PHP, Python, HTML</li>
           <li>SpringBoot, Angular</li>
@@ -57,8 +57,8 @@
       </section>
 
       <section id="proyectos">
-        <h2>Formacion</h2>
-        <ul>
+        <h2 class="title-sections">Formacion</h2>
+        <ul class="list">
           <li>PHP basico certificado por la UMSS y cursos en linea</li>
           <li>Programacion orientada a objetos certificado por la UMSS</li>
           <li>Java moulo basico intermedio certificado por la umss</li>
@@ -68,28 +68,28 @@
       </section>
 
       <section id="contacto">
-        <h2>Contacto</h2>
-        <a href="https://t.me/Patuche" target="_blank"
+        <h2 class="title-sections">Contacto</h2>
+        <a href="https://t.me/Patuche" target="_blank" class="link"
           ><i class="fa fa-telegram" aria-hidden="true"></i
         ></a>
         <a
           href="https://www.instagram.com/karenpatypato/?igsh=MXRra25reDhhN2QzbQ%3D%3D#"
-          target="_blank"
+          target="_blank" class="link"
         >
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <a
-          target="_blank"
+          target="_blank" class="link"
           href="https://www.linkedin.com/in/karen-paco-gamarra-280228254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         >
           <i class="fa fa-linkedin" aria-hidden="true"> </i>
         </a>
-        <a target="_blank" href="https://github.com/Patuche93">
+        <a target="_blank" class="link"  href="https://github.com/Patuche93">
           <i class="fa fa-github" aria-hidden="true"></i>
         </a>
       </section>
     </main>
-    <footer>
+    <footer class="autor">
       <p>Karen Paco Dev 2025</p>
     </footer>
   </body>
